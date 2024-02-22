@@ -1,0 +1,7 @@
+E010, 1500 Sugar Bowl Dr
+CSCI-1581, Software Design and Development I Laboratory
+E001, CSCI-1581
+E001, Will Smith, 05-AUG-80, P002
+CSCI-2120, CSCI-1581
+P001, Software Developer, 96335
+E001, 01-MAR-24, 6.34

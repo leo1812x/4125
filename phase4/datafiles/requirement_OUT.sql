@@ -1,0 +1,11 @@
+INSERT INTO requirement_ VALUES ('P001','CSCI-4501');
+INSERT INTO requirement_ VALUES ('P001','CSCI-4401');
+INSERT INTO requirement_ VALUES ('P002','CSCI-4208');
+INSERT INTO requirement_ VALUES ('P003','CSCI-4661');
+INSERT INTO requirement_ VALUES ('P003','CSCI-4460');
+INSERT INTO requirement_ VALUES ('P004','CSCI-4125');
+INSERT INTO requirement_ VALUES ('P004','CSCI-4621');
+INSERT INTO requirement_ VALUES ('P005','CSCI-4621');
+INSERT INTO requirement_ VALUES ('P005','CSCI-4460');
+INSERT INTO requirement_ VALUES ('P006','CSCI-4670');
+commit;
