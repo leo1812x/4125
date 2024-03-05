@@ -1,17 +1,65 @@
 --1. [2 pts] Find all positions (the names) with a salary greater than $95,000.
+NAME_                              
+-----------------------------------
+Software Developer
+Web Developer
+Mobile App Developer
+Project Manager
 
 --2. [2 pts] Find all employees that do not have a position.
+no rows selected
 
 --3. [2 pts] Find the average hours submitted by employee E001 to their timecards. 
+  AVGHOURS
+----------
+4.61233333
 
 --4. [2 pts] Find all employee's born in August. Sort the output by the employee name. Hint: remember the LIKE operator. 
+ID_  NAME_                          DOB       POSI
+---- ------------------------------ --------- ----
+E023 Harrison Ford                  12-AUG-96 P001
+E027 Jackie Chan                    24-AUG-92 P005
+E001 Will Smith                     05-AUG-80 P002
 
 --5. [2 pts] Find the minimum and maximum salaries amongst all positions. Use only a single query that returns a single row (ex. $60000, $100000).
+MIN(SALARY) MAX(SALARY)
+----------- -----------
+      82432      113599
 
 --6. [2 pts] Find all 4000-level courses. Hint: remember the LIKE operator.
+ID_       NAME_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+--------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+CSCI-4125 Data Models and Database Systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+CSCI-4208 Developing Advanced Web Applications                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+CSCI-4401 Principles of Operating Systems I                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+CSCI-4460 Network Operation and Defense                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+CSCI-4501 Programming Language Structure                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+CSCI-4621 Intro to Cyber Security                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+CSCI-4661 Topics in Mobile Applications Development                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+CSCI-4670 Fundamentals of Game Development                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+
+8 rows selected.
 
 --7. [2 pts] Find the number of timecards for E018 with hours between 5 and 7 (inclusive).
+  COUNT(*)
+----------
+         8
 
 --8. [4 pts] Find the name of the position with the highest salary. Do not harcode any salaries - you must use SQL without assuming you know the current database snapshot.
+NAME_                              
+-----------------------------------
+Project Manager
 
 --9. [4 pts] Find the employee timecards with the submitted hours greater than the average overall hours + 75% (i.e., greater than 1.75 * average hours.). Do not hardcode any hours or other values – you must use SQL without assuming you know the current database snapshot.
+EMPL DATE_         HOURS_
+---- --------- ----------
+E019 03-MAR-24       7.99
+E019 04-MAR-24       7.98
+E018 09-MAR-24       7.97
+E023 10-MAR-24       7.99
+E001 11-MAR-24       7.98
+E005 11-MAR-24       7.97
+E007 16-MAR-24       7.97
+E029 16-MAR-24       7.98
+
+8 rows selected. 
