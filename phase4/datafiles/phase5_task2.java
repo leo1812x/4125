@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class Task2 {
+public class phase5_task2 {
 
     public static String task2(){
         String[] HighestPaid = {"","","0"};

@@ -1,0 +1,103 @@
+--1. Find the names of all employees who have at least one address.
+NAME_                         
+------------------------------
+Margot Robbie
+Ryan Gosling
+Dwayne Johnson
+Tom Hanks
+Idris Elba
+Gal Gadot
+Chris Evans
+Jamie Foxx
+Rami Malek
+Vin Diesel
+Adam Driver
+
+NAME_                         
+------------------------------
+Scarlett Johansson
+Miles Teller
+Salma Hayek
+Russell Crowe
+Ewan McGregor
+Beyonce
+Brad Pitt
+Matt Damon
+
+19 rows selected. 
+
+--2. For each employee id, list the total hours worked (from the timecards).
+
+ID_  SUM(TIMECARD_.HOURS_)
+---- ---------------------
+E001                138.37
+E002                161.73
+E003                 131.9
+E004                133.85
+E005                128.39
+E006                130.83
+E007                136.48
+E008                138.16
+E009                133.79
+E010                133.62
+E011                124.36
+
+ID_  SUM(TIMECARD_.HOURS_)
+---- ---------------------
+E012                121.41
+E013                127.61
+E014                139.58
+E015                130.11
+E016                130.44
+E017                136.45
+E018                147.81
+E019                135.23
+E020                145.94
+E021                161.61
+E022                134.71
+
+ID_  SUM(TIMECARD_.HOURS_)
+---- ---------------------
+E023                130.58
+E024                142.17
+E025                136.48
+E026                128.72
+E027                145.15
+E028                131.69
+E029                143.24
+E030                134.42
+
+30 rows selected. 
+
+--3. Find the names of all employees that do not have an address.
+
+NAME_                         
+------------------------------
+Mark Wahlberg
+Tom Hardy
+Jackie Chan
+Lady Gaga
+Will Ferrell
+Natalie Portman
+Keanu Reeves
+Nicholas Cage
+Will Smith
+Harrison Ford
+Emma Stone
+
+11 rows selected. 
+
+--4. Find the names of all employees that have the position 'Security Analyst'.
+
+NAME_                         
+------------------------------
+Ryan Gosling
+Idris Elba
+Gal Gadot
+Chris Evans
+Rami Malek
+Ewan McGregor
+Jackie Chan
+Keanu Reeves
+
+8 rows selected. 
