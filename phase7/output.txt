@@ -1,0 +1,46 @@
+--1. Retrieve the names of all positions held by more than 5 employess. Sort the output by the position name (any direction).
+NAME_                              
+-----------------------------------
+Web Developer
+Security Analyst
+
+--2. Retrieve the names of all courses that have 'Data Structures' as a prerequisite. 
+ID_       NAME_                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                COURSEID  PREREQID 
+--------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------- ---------
+CSCI-4125 Data Models and Database Systems                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     CSCI-4125 CSCI-2125
+CSCI-4401 Principles of Operating Systems I  
+
+--3. Find the employee names that have the highest paying position.
+NAME_                         
+------------------------------
+Will Ferrell
+Salma Hayek
+Natalie Portman
+
+--4. Find the total number of hours worked for each position name.
+NAME_                               TOTALHOURS
+----------------------------------- ----------
+Web Developer                           835.46
+Security Analyst                       1090.55
+Software Developer                      688.85
+Game Developer                           523.4
+Project Manager                         410.32
+Mobile App Developer                    546.25
+
+6 rows selected. 
+
+--5. List the total number of A's and B's for each course name. Order the output (descending) by this number.
+
+--6. Find the course name(s) that is/are the most common requirement for positions.
+
+--7. Find the employee name who worked the most hours between March 10th and 19th (inclusive)
+NAME_                          TOTALHOURS
+------------------------------ ----------
+Margot Robbie                       61.13
+
+--8. This problem requires (no points if you don't) you to use the regular expression function REGEXP_LIKE that we discussed in class.
+-- Find all employee names where both the first name and last name begin with a vowel
+
+NAME_                         
+------------------------------
+Idris Elba
